@@ -59,9 +59,10 @@
   opacity: 0;
 }
 .has-float-label .form-control:placeholder-shown:not(:focus) + * {
-  font-size: 150%;
+  font-size: medium;
+  top: 50%;
+  transform: translateY(-50%);
   opacity: .5;
-  top: .3em;
 }
 
 .input-group .has-float-label {
